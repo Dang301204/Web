@@ -145,7 +145,7 @@ document.addEventListener("DOMContentLoaded", () => {
         if (currentQuestionIndex < currentQuestions.length) {
           loadQuestion();
         } else {
-          alert(`Quiz completed! Your score is ${score}.`);
+          alert(Quiz completed! Your score is ${score}.);
           resetGame();
         }
       } else {
